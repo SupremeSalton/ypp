@@ -1,0 +1,48 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.chat__window {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+.chat__window-list {
+    background-color: #ecdcbe;
+    width: 25%;
+    height: 100%;
+
+}
+
+.chat__window__messages {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6eacc;
+    width: 75%;
+    height: 100%;
+}
+
+.chat_window__messages-up {
+ height: 75%;
+ width: 100%;
+ font-size: 3vw;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.chat_window__messages-down {
+    height: 25%;
+    width: 100%;
+}
+

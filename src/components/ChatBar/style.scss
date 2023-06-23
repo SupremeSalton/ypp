@@ -1,0 +1,46 @@
+.chat__chatbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70%;
+}
+
+.chat__chatbar-attachment {
+        height: 3vw;
+        width: 3vw;
+        background-color: gray;
+        background-image: url(../../images/attachment.png);
+        border-radius: 50%;
+        margin-left: 10%;
+        background-size: cover;
+}
+
+.chat__chatbar-message_input{
+    height: 50%;
+    width: 60%;
+    margin-left: auto;
+    font-size: 1.3vw;
+}
+
+.chat__chatbar-send_button {
+        height: 3vw;
+        width: 3vw;
+        background-color: #84e582;
+        background-image: url(../../images/send.png);
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: 10%;
+        background-size: cover;
+}
+
+
+
+
+.chat__chatbar-topline {
+    display: flex;
+    height: 1px;
+    width: 100;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+}

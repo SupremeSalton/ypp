@@ -1,0 +1,67 @@
+.chat__navbar {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    background-color: #d9d9d9;
+    width: 100%;   
+}
+
+
+
+.chat__navbar__addbutton {
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    background-color: #84e582;
+    background-image: url(../../images/addContact.png);
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.chat__navbar-search {
+    position: relative;
+    width: 15%;
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+.chat__navbar-avatar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 3vw;
+    font-size: 1.1vw;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.chat__navbar-name {
+    font-size: 1.5vw;
+    margin-left: 3%;
+    
+}
+
+.chat__navbar-profileButton {
+    font-size: 1.2vw;
+    width: 5vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #eacb9c;
+    margin-right: 5%;
+    margin-left: auto;
+}
