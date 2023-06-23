@@ -1,0 +1,82 @@
+.main__background {
+    background-color: #f6eacc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.profile__settings__form {
+    display: flex;
+    flex-direction: row;
+    background-color: #ecdcbe;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    width: 70%;
+}
+
+.profile__settings__avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+
+.profile__settings__avatar-img {
+    height: 8vw;
+    width: 8vw;
+    background-color: white;
+    background-image: url(../../images/avatar.png);
+    border-radius: 50%;
+    background-size: cover;
+    margin: 30% auto 3%;
+}
+
+.profile__settings__avatar-file {
+    margin-left: auto;
+    margin-bottom: 30%;
+}
+
+// .profile__settings-pic {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: transparent;
+//     transition: all .3s ease;
+//     position: relative;
+//     transition: all .3s ease;
+// }
+
+// .-label {
+//     cursor: pointer;
+//     height: 12vw;
+//     width: 12vw;
+//   }
+
+// .img {
+//     position: absolute;
+//     object-fit: cover;
+//     width: 12vw;
+//     height: 12vw;
+//     box-shadow: 0 0 10px 0;
+//     border-radius: 50%;
+//     z-index: 0;
+//   }
+
+.profile__settings__form-text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+.login__form-header {
+    margin: 20px auto;
+}
+
