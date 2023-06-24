@@ -1,0 +1,11 @@
+[build]
+    publish = "dist"
+<<<<<<< HEAD
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+=======
+    command = "npm run <some>"
+>>>>>>> 4c48d9e3 (mess)
