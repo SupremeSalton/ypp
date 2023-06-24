@@ -1,1 +1,14 @@
+export default defineConfig({
+    root: resolve(__dirname, 'src'),
+    build: {
+        outDir: resolve(__dirname, 'dist')
+    },
 
+    plugins: [handlebars()],
+
+    server: {
+        host: 'localhost',
+        port: '3000'
+    }
+
+})
