@@ -11,6 +11,7 @@ export const template =  `
     </main>
 
     <ul class="link_list">
+
         <li> <a href="https://dreamy-chaja-f6b77c.netlify.app/login"> Login (/login)</a></li>
         <li> <a href="https://dreamy-chaja-f6b77c.netlify.app/registration"> Registration (/registration) </a></li>
         <li> <a href="https://dreamy-chaja-f6b77c.netlify.app/chats"> Chats (/chats) </a></li>
