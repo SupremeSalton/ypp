@@ -1,3 +1,3 @@
 function f(x) {
-    console.log(`${x}`);
+    console.log(`${x} abc`);
 }
